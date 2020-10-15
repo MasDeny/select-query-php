@@ -1,9 +1,4 @@
 # SQL
-A simple SQL injection protection module that allows you to use ES6 template strings for escaped statements. Works with [pg](https://www.npmjs.com/package/pg), [mysql](https://www.npmjs.com/package/mysql) and [mysql2](https://www.npmjs.com/package/mysql2) library.
-
-[![npm version][1]][2] [![build status][3]][4] [![js-standard-style][5]][6]
-
-
 
 1. [Step](#step)
 2. [Query Usage](#usage-query)
@@ -13,10 +8,9 @@ A simple SQL injection protection module that allows you to use ES6 template str
 A. Untuk menginstall database lakukan langkah berikut
 
 ```txt
-1. Masuk directory project 
-2. Jalankan 'composer install' untuk menginisialisasi database dari environtment
-3. Cek file .env pastikan host, username dan password sesuai dengan database sistem
-4. Setelah semua sesuai lakukan import file db.sql ke database
+1. Masuk directory project dan ganti name file .env.example menjadi .env
+2. Cek file .env pastikan host, username dan password sesuai dengan database sistem
+3. Setelah semua sesuai lakukan import file db.sql ke database
 
 ```
 
