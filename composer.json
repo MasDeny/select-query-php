@@ -1,0 +1,17 @@
+{
+    "name": "biang/php-boilerplate",
+    "authors": [
+        {
+            "name": "MasDeny",
+            "email": "kickdeny@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
